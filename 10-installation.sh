@@ -1,3 +1,11 @@
 #!/bin/bash
 
-dnf install nginix -y
+USERID=$(id -u)
+
+if [ $USERID -ne 0 ]; then
+    echo "Please run this script with root user acess"
+fi
+
+echo "Installing Nginx"
+dnf install nginx -y
+
