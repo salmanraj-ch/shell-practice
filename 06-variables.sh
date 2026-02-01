@@ -4,7 +4,7 @@ START_TIME=$(date +%s)
 
 echo "script executed at: $TIMESTAMP"
 
-SLEEP 10
+Sleep 10
 
 END_TIME=$(date +%s)
 TOTAL_TIME=$(($END_TIME-$START_TIME))
