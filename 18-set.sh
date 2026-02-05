@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e  # Checks for errors and exits if any are found
+#set -e  # Checks for errors and exits if any are found
 
 #!/bin/bash
 
